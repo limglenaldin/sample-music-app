@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #030712;
+    min-height: 100vh;
+    padding: 0.75rem;
+    color: #e5e5e5;
+}
+
+.col-wrapper {
+    background-color: #1f2937;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.side-col {
+    width: 25%;
+    margin-right: 0.75rem;
+}
+
+.main-col {
+    width: 75%;
+}
+
+.section-title {
+    border-bottom: 2px solid #9ca3af;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Most Played Songs Section */
+.songs-container .song {
+    display: flex;
+    height: 5.5rem;
+    margin-bottom: 1rem;
+}
+
+.songs-container .song-thumb {
+    width: 25%;
+}
+
+.songs-container .album-image {
+    height: 5.5rem;
+}
+
+.songs-container .song-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    background-color: #334155;
+    padding: 0rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.songs-container .song-title {
+    font-weight: 600;
+}
+
+.songs-container .song-artist {
+    font-weight: 300;
+    color: #d1d5db;
+}
+
+/* Your Recommendation Section */
+.songs-recommend {
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.songs-recommend .song {
+    display: flex;
+    height: 3.5rem;
+}
+
+.songs-recommend .song-thumb {
+    width: 3.5rem;
+}
+
+.songs-recommend .album-image {
+    height: 3.5rem;
+}
+
+.songs-recommend .song-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    padding: 0rem 1rem;
+}
+
+.songs-recommend .song-title {
+    font-weight: 600;
+}
+
+.songs-recommend .song-artist {
+    font-weight: 300;
+    color: #d1d5db;
+}
+
+thead td {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #4b5563;
+}
+
+tbody td {
+    padding-top: 0.5rem;
+}
+
+button {
+    background-color: transparent;
+    border: 0px;
+    color: #e5e5e5;;
+}
+
+button:active {
+    background-color: transparent;
+    border: 0px;
+    color: #a3a3a3;
+}
